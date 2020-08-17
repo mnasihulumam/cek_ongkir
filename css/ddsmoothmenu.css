@@ -1,0 +1,48 @@
+.ddsmoothmenu{
+}
+
+.ddsmoothmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+.ddsmoothmenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+.ddsmoothmenu ul li a {
+	display: block;
+	height: 30px;
+	width: 73px;
+	padding: 0 2px 4px 0;
+	margin-left: 10px;
+	line-height: 32px;
+	font-size: 14px;
+	font-family: "MS Serif", "New York", serif;
+	color: #fff;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a:hover {
+	background: url(../images/tooplate_menu_item_hover.png) 
+}
+
+
+.ddsmoothmenu ul li ul span.top {
+	display: block;
+	position: absolute;
+	width: 188px;
+	height: 8px;
+	top: -8px;
+	left: 0;
+	background: url(../images/tooplate_submenu_t.png)
+}

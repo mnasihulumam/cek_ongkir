@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: url();
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: red;
+	padding: 5px, 20px;
+	border: 1px solid transparent;
+}
+ul li a:hover{
+	background-color: yellow;
+	color:blue;
+}
+ul li.active a{
+	background-color: yellow;
+	color: blue;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	transform: translate(-50px,-50px);
+}
